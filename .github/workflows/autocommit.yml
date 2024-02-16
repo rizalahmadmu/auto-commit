@@ -26,18 +26,18 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "ravidwiputra@gmail.com"
-          git config --local user.name "rdp77"
+          git config --local user.email "rizalahmadmu@gmail.com"
+          git config --local user.name "rizalahmadmu"
           git add -A
           
-          arr[0]="feat: 😂 auto commit"
-          arr[1]="feat: 😱 auto commit"
-          arr[2]="feat: 👿 auto commit"
-          arr[3]="feat: 💩 auto commit"
-          arr[4]="feat: 🙏 auto commit"
-          arr[5]="feat: 🙈 auto commit"
-          arr[6]="feat: 🐐 auto commit"
-          arr[7]="feat: 🚀 auto commit"
+          arr[0]="refactor: update orders"
+          arr[1]="refactor: update product"
+          arr[2]="refactor: update profile"
+          arr[3]="realease: To dev"
+          arr[4]="refactor: Update change"
+          arr[5]="refactor: update cart"
+          arr[6]="refactor: update checkout"
+          arr[7]="refactor: update update suppliers"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
